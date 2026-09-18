@@ -1,6 +1,6 @@
 ---
 name: garden-log-notion-sync
-description: Sync explicitly selected Garden Log iOS learning notes or the system architecture document to their configured Notion pages. Requires available Notion tools and user approval before every external write.
+description: Sync explicitly selected Garden Log iOS work-unit learning notes or the system architecture document to their configured Notion pages. Requires available Notion tools and user approval before every external write.
 ---
 
 # Garden Log Notion Sync
@@ -12,7 +12,7 @@ Sync only durable project documentation. Never sync temporary progress or planni
 - Learning-note parent, `작업 과정`: `3df6e29b97d580f3867ef8a7ed5c4dda`
 - Architecture page, `아키텍쳐`: `3df6e29b97d58092b2ffc2e7f44dcb5f`
 
-Each `docs/learning/*.md` note becomes a child page under `작업 과정`. `docs/system-architecture.md` updates the configured `아키텍쳐` page.
+Each completed work unit's `docs/learning/*.md` note becomes one child page under `작업 과정`. `docs/system-architecture.md` updates the configured `아키텍쳐` page.
 
 Exclude `docs/learning/_template.md`, `docs/work-status.md`, and `docs/project-plan.md`.
 

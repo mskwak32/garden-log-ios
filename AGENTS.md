@@ -43,7 +43,7 @@ Android reference: `/Users/mskwak/Projects/garden-log-android`
 
 - `docs/project-plan.md`: long-term work units and decision gates.
 - `docs/work-status.md`: temporary context for the active work unit only.
-- `docs/learning/`: durable topic-based learning notes.
+- `docs/learning/`: one durable learning note per completed work unit.
 - `docs/system-architecture.md`: confirmed architecture and important technical decisions.
 - Use repository skills for active-unit continuation, completed-unit learning records, and explicit Notion synchronization.
 
