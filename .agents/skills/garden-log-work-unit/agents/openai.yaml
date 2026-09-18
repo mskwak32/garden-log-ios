@@ -1,0 +1,4 @@
+interface:
+  display_name: "Garden Log Work Unit"
+  short_description: "Resume the current iOS learning work unit"
+  default_prompt: "Use $garden-log-work-unit to continue the current Garden Log iOS work unit."

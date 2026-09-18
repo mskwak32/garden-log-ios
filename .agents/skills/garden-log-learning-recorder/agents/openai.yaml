@@ -1,0 +1,4 @@
+interface:
+  display_name: "Garden Log Learning Recorder"
+  short_description: "Close a work unit into durable learning notes"
+  default_prompt: "Use $garden-log-learning-recorder to close the completed Garden Log iOS work unit."

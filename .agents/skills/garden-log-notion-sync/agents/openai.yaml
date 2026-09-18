@@ -1,0 +1,4 @@
+interface:
+  display_name: "Garden Log Notion Sync"
+  short_description: "Sync selected learning and architecture documents"
+  default_prompt: "Use $garden-log-notion-sync to sync a selected Garden Log document to Notion."
