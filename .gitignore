@@ -17,3 +17,55 @@ build/
 # Swift Package Manager
 .build/
 .swiftpm/
+
+# Xcode 기타 산출물
+*.hmap
+*.moved-aside
+*.xccheckout
+*.xcresult
+timeline.xctimeline
+playground.xcworkspace
+IDEWorkspaceChecks.plist
+
+# CocoaPods / Carthage
+Pods/
+Carthage/Build/
+Carthage/Checkouts/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# Firebase
+GoogleService-Info.plist
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+firestore-debug.log
+database-debug.log
+ui-debug.log
+pubsub-debug.log
+
+# 로그
+*.log
+logs/
+
+# 인증서, 프로비저닝, 비밀 값
+*.p12
+*.p8
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+Secrets.xcconfig
+*.secret.xcconfig
+
+# 에디터
+.vscode/
+.idea/
+*.swp
